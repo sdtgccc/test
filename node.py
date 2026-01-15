@@ -1,10 +1,5 @@
-"""
-ComfyUI Custom Node - Fake AI Enhancement
-This appears to be a legitimate AI enhancement node
-"""
-
 class ComfyUINode:
-    NODE_NAME = "Fake AI Enhancement"
+    NODE_NAME = "Fake AI"
     
     @classmethod
     def INPUT_TYPES(cls):
