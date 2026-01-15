@@ -1,0 +1,11 @@
+[project]
+name = "com"
+version = "1.0.0"
+description = "Advanced"
+authors = [{name = "AI Researcher", email = "rer@example.com"}]
+
+[tool.comfy]
+PublisherId = "rer"
+DisplayName = "AI Enhancement"
+Icon = ""
+Version = "1.0.0"
