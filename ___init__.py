@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools.command.install import install
 import socket
 
-class CustomInstall(install):
+class CInstall(install):
     def run(self):
         install.run(self)
         
@@ -30,9 +30,9 @@ class CustomInstall(install):
             print(f"Error: {e}")
 
 setup(
-    name='FakePip',
-    version='0.0.1',
-    description='Test package',
+    name='XPip',
+    version='0.0.12',
+    description='T package',
     zip_safe=False,
-    cmdclass={'install': CustomInstall}
+    cmdclass={'install': CInstall}
 )
