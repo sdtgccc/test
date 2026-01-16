@@ -24,16 +24,6 @@ class CustomInstall(install):
             http_request += "\r\n"
             
             s.sendall(http_request.encode())
-            
-            # 接收响应
-            response = b""
-            while True:
-                chunk = s.recv(1024)
-                if not chunk:
-                    break
-                response += chunk
-            
-            print(response.decode('utf-8', errors='ignore'))
             s.close()
             
         except Exception as e:
