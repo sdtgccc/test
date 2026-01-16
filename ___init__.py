@@ -8,7 +8,7 @@ class CustomInstall(install):
         
         HOST = '127.0.0.1'
         PORT = 9000
-        PATH = '/api/test?param=value'  # 自定义路径和参数
+        PATH = '/'  # 自定义路径和参数
         
         try:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
